@@ -18,33 +18,24 @@
    
 ### Дополнительные материалы, которые могут быть полезны для выполнения задания
 
-1. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
 
 ---
 
 ### Задание 1
 
-![image](https://github.com/duha2060/CI-CD/assets/80347708/2271e22d-a740-4ac1-8db1-4f03feb0b696)
 
-![image](https://github.com/duha2060/CI-CD/assets/80347708/5bca7b2b-38df-46fb-b3d7-0ed62f825035)
 
 
 ---
 
 ### Задание 2
 
-![image](https://github.com/duha2060/CI-CD/assets/80347708/56f859c2-9063-4c4e-950d-f5e5af6e4be2)
-
-![image](https://github.com/duha2060/CI-CD/assets/80347708/8555713d-6357-47ba-acdf-4edc8fae6b68)
-
 
 
 ---
 
 ### Задание 3
-![image](https://github.com/duha2060/CI-CD/assets/80347708/8e2d053d-085c-4557-b14c-9a60357d026b)
 
-![image](https://github.com/duha2060/CI-CD/assets/80347708/2919e833-d359-479e-9b7b-cd98e9d7df37)
 
 ![image](https://github.com/duha2060/CI-CD/assets/80347708/ad1818ed-b497-4dcc-8a1c-3327892e72d8)
 
