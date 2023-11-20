@@ -37,7 +37,6 @@
 ### Задание 3
 
 
-![image](https://github.com/duha2060/CI-CD/assets/80347708/ad1818ed-b497-4dcc-8a1c-3327892e72d8)
 
 
 
