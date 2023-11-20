@@ -57,12 +57,26 @@
 ---
 
 ### Задание 2
+![image](https://github.com/duha2060/zabbix/assets/80347708/6976f572-2bf7-4235-915b-ef7ba1462ddc)
+![image](https://github.com/duha2060/zabbix/assets/80347708/7327b568-3c3b-48d9-931d-ea7ee043c46d)
+![image](https://github.com/duha2060/zabbix/assets/80347708/97901cf9-59a3-41f8-abf7-435a94af7c18)
 
-
-
+1. Установка репозитория Zabbix
+```
+# rpm -Uvh https://repo.zabbix.com/zabbix/6.4/rhel/7/x86_64/zabbix-release-6.4-1.el7.noarch.rpm
+# yum clean all
+```
+2. Установка Zabbix сервера, веб-интерфейса
+```
+# yum install zabbix-agent
+```
+6. Запуск и автозапуск
+```
+# systemctl restart zabbix-agent
+# systemctl enable zabbix-agent
+```
 ---
 
-### Задание 3
 
 
 
