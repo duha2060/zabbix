@@ -22,10 +22,27 @@
 ---
 
 ### Задание 1
+![image](https://github.com/duha2060/zabbix/assets/80347708/ebb0b038-5916-4e3e-84af-39bf78b4e803)
 
-
-
-
+1. Установка репозитория Zabbix
+```
+# wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
+# dpkg -i zabbix-release_6.0-4+debian11_all.deb
+# apt update
+```
+2. Установка Zabbix сервера, веб-интерфейса
+```
+# apt install zabbix-server-pgsql zabbix-frontend-php php7.4-pgsql zabbix-apache-conf zabbix-sql-scripts
+```
+3. Создание пользователя базы данных
+```
+# su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
+# su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'
+```
+4. Импорт схемы
+```
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+```
 ---
 
 ### Задание 2
