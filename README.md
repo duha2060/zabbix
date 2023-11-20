@@ -41,8 +41,19 @@
 ```
 4. Импорт схемы
 ```
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+# zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 ```
+5. Настройка базы данных для Zabbix сервера
+Редактируем файл /etc/zabbix/zabbix_server.conf
+```
+# sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
+```
+6. Запуск и автозапуск
+```
+# systemctl restart zabbix-server apache2
+# systemctl enable zabbix-server apache2
+```
+
 ---
 
 ### Задание 2
